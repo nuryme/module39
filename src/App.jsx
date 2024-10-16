@@ -26,6 +26,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
+    <CoreConcepts></CoreConcepts>
+
       <h1>React core concepts 2</h1>
       <div>
       <button onClick={handleClick} style={{
@@ -54,6 +57,24 @@ function App() {
       </div>
     </>
 
+  )
+}
+
+function CoreConcepts() {
+  return (
+    <div className='container'>
+      <h2>React Core Concepts - 6</h2>
+      <ol style={{
+        textAlign: 'left'
+      }}>
+        <li>Components</li>
+        <li>JSX</li>
+        <li>Props</li>
+        <li>Event Handler</li>
+        <li>State</li>
+        <li>Side Effect (load data)</li>
+      </ol>
+    </div>
   )
 }
 
